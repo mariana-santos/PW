@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+  font-family: 'Arial';
+  overflow-x: hidden;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin: 2%;
+}
+
+.box{
+  width: 30%;
+  background-color: #BEB7A4;
+  box-shadow: 10px -10px #F9A826;
+  margin: 5%;
+  padding: 2%;
+}
+
+
+.title{
+  color: #3b3b3b;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.icon{
+  width: 30%;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.in{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding: 3%;
+  width: 75%;
+  border: solid 2px #F9A826;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.in:hover{
+  border: solid 2px #706c60;
+  text-decoration: none;
+}
+
+.in:focus{
+  border: solid 2px #706c60;
+}
+
+.btn{
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-color: #F9A826;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  background-color: #d18101;
+  border: solid 2px #d18101;
+  text-decoration: none;
+}
+
+.contact{
+  width: 45%;
+}
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 2%;
+}
+
+#table td, #table th {
+  border:1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+#table tr:hover {background-color: #ddd;}
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F9A826;
+  color: white;
+}
+
+.msgajax #success{
+  background: rgb(0, 194, 0);
+  color: #fff;
+  font-weight: 900;
+  margin: 10px 15px 20px 15px;
+  padding: 10px;
+  font-size: x-large;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#mapa {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.gerarpdf:hover{
+  text-decoration: none;
+}
+
+.alterar:hover{
+  color:rgb(163, 153, 16);
+}
+
+.excluir:hover{
+  color: #b90000;
+}
+
+.form-control-sm{
+  margin: 1%;
+}
+
+label{
+  margin: 3%;
+  font-weight: 700;
+}
+
+.btn-sm{
+  border: none;
+}
+
+.btn-sm:hover{
+  border: none;
+}
+
+.navbar{
+  background-color: #333; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  margin-bottom: 3%;
+}

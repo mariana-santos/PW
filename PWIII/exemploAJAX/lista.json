@@ -1,0 +1,24 @@
+{
+    "listadeAlunos": [
+        {
+            "id": 1,
+            "nome": "Allan",
+            "idade": 39,
+            "email": "allan@exemplo.com"
+        },
+
+        {
+            "id": 2,
+            "nome": "Maria",
+            "idade": 28,
+            "email": "maria@exemplo.com"
+        },
+
+        {
+            "id": 3,
+            "nome": "Ana",
+            "idade": 15,
+            "email": "ana@exemplo.com"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+body{
+    background-color: #2c3c55;
+}
+.title{
+    color: white;
+    font-family: palatino linotype;
+    text-align: center;
+    margin-top: 5%;
+}
+.subtitle{
+    text-align: center;
+    color: white;
+    font-family: palatino linotype;
+    font-size: 25px;
+}
+.container{
+    padding: 30px;
+    width: 50%;
+    background-color: #65748e;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.btn{
+    text-decoration: none;
+    background-color: rgb(46, 42, 42);
+    color: white;
+    margin: 2%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.5s;
+    border:none;	
+}
+.btn:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+ol{
+    color: white;
+}
+.title2{
+    font-weight: 3px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}

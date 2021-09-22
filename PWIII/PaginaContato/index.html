@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Cabeçalho</h1>
+            </div>
+        </header>
+
+        <section>
+            <form>
+                <div>
+                    <input type="text" placeholder="Nome" id="txtNome" class="tx">
+                </div>
+
+                <div>
+                    <input type="email" placeholder="E-mail" id="txtEmail" class="tx">
+                </div>
+
+                <div>
+                    <input type="text" placeholder="Assunto" id="txtAssunto" class="tx">
+                </div>
+
+                <div>
+                    <textarea placeholder="Mensagem" id="txtMensagem" class="tx ta"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar" class="bt" onclick="verDados()">
+                </div>
+
+            </form>
+        </section>
+
+        <footer>
+            <p>2021 - Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>
+
+<script>
+    
+    function verDados(){
+        let nome = document.getElementById("txtNome").value;
+        let email = document.getElementById("txtEmail").value;
+        let assunto = document.getElementById("txtAssunto").value;
+        let mensagem = document.getElementById("txtMensagem").value;
+
+        let array = {Nome: nome, 
+            Email: email, 
+            Assunto: assunto,
+            Mensagem: mensagem
+        };
+
+        for(let chave in array){
+            alert(chave +': '+ array[chave]);
+        }
+
+    }
+
+</script>

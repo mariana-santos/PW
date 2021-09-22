@@ -1,0 +1,7 @@
+POO - programação orientada a objetos
+Objetivo - aproximar o mundo digital do mundo real
+programação baixo nível -> programação linear -> programação estruturada -> programação modular -> POO
+
+classe conta = geral, com atributos: agencia, numero, saldo e titular
+objeto conta = um dos varios objetos baseado na classe conta, com atribuições: agência: 0000, numero: 0000, saldo: 100.00 e titular: jubiscleudo
+

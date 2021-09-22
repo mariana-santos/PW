@@ -1,0 +1,222 @@
+.menu{
+    width: 100%;
+    position: absolute;
+    margin-top: -45%;
+    font-weight: bolder;
+}
+#logo{
+    width:70px;
+    align-items: center;
+}
+#logo:hover{
+    transform: scale(1.2);
+    transition: 0.3s
+}
+.limenu .amenu{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 16%;
+        float: left;
+        text-align: justify;
+        color: white;
+        font-weight: bolder;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 25px;
+        padding: 0 20px;
+}
+.limenulogo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 16%;
+    float: left;
+    text-align: justify;
+}
+.amenu::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.amenu:hover::after{
+    width: 90%;
+    transition: width .3s;
+}
+#rodape{
+    background: #117a8b;
+    bottom: 0;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    height: 25%;
+    width: 100%;
+}
+.strongrodape{
+    margin-top: 3%;
+    padding-left: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imgrodape{
+    width: 30px;
+    transition: 0.3s;
+    margin-left: 59%;
+}
+.imgrodape:hover{
+    opacity: 0.6;
+}
+.arodape{
+    color: white;
+    margin-left: 10px;
+}
+.arodape3{
+    color: white;
+    margin-left: 65%;
+}
+.arodape3:hover{
+    color: white;
+}
+.arodape2{
+    color: white;
+    margin-left: 10px;
+}
+.arodape2:hover{
+    text-decoration: none;
+    color: white;
+}
+.lirodape .arodape:hover{
+    color: white;
+}
+
+.ulrodape{
+    float: left;
+}
+.coluna{
+    width: 20%;
+    float: left;
+    padding:0px 10px;
+    margin-top: 0;
+}
+.linha::after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 0;
+}
+@media screen and(max-width:600px){
+    .coluna{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.prod{
+    max-width: 300px;
+    border: solid 1px;
+    border-color: #117a8b;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    background: #addae01c;
+}
+.prod:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.imgprod{
+    width: 65%;
+    height: 40%;
+    padding-top: 10px;
+}
+.strongprod{
+    font-size: 20px;
+    line-height: 35px;
+}
+.pprod{
+    font-size: 20px;
+    line-height: 20px;
+}
+.preco{
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: -2%;
+}
+.generosd{
+    margin-top: 5%;
+    text-align: center;
+}
+.generos{
+    margin-top: 5%;
+    text-align: center;
+}
+hr{
+    height: -2px;
+    margin-left: 32%;
+    margin-right: 32%;
+	border: 1px solid; 
+    border-color:#117a8b; 
+}
+.hr1{
+    height: -2px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3%;
+	border: 1px solid; 
+    border-color:#117a8b; 
+}
+.qs{
+    margin-left: 6%;
+    margin-right: 15%;
+    text-align: justify;
+    font-size: 20px;
+}
+.quemsomos{
+    margin-left: 6%;
+    margin-right: 45%;
+}
+.hrquemsomos{
+    height: -1px;
+    margin-left: 6%;
+    margin-right: 65%;
+	border: 1px solid; 
+    border-color:  #117a8b; 
+}
+.logoqs{
+    width: 50%;
+    margin-left: 30%;
+    
+}
+.pqs{
+    margin-top: 10%;
+    font-family: 'Gill Sans';
+    font-size: 35px;
+}
+.pqs1{
+    margin-top: 10%;
+    font-family: 'Gill Sans';
+    font-size: 35px;
+    text-align: end;
+}
+.cria{
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    border-radius: 70%;
+}
+.NAOSEIA{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 7%;
+    font-size: 15px;
+    font-family: "palatino linotype";
+}

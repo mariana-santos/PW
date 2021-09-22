@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo jQuery</title>
+
+        <style>
+            .quadrado{
+                width: 300px;
+                height: 300px;
+                background: rgb(156, 41, 223);
+                display: none;
+                transition: 0.5s;
+            }
+            .quadrado:hover{
+                display: initial;
+                background: #ff0;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="quadrado" id="quadrado">
+        </div>
+
+        <a href="#" id="exibir">Exibir quadrado</a>
+        <a href="#" id="esconder">Esconder quadrado</a>
+        <a href="#" id="toggl">Exibir/Esconder</a>
+
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+
+        <script>
+            jQuery(document).ready(function(){
+
+                jQuery('#exibir').click(function(){
+                    jQuery('#quadrado').show("fast")
+                });
+
+                jQuery('#esconder').click(function(){
+                    jQuery('#quadrado').hide("fast")
+                });
+
+                jQuery('#toggl').click(function(){
+                    jQuery('#quadrado').toggle()
+                });
+
+            });
+        </script>
+    </body>
+</html>
